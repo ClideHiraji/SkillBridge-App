@@ -174,20 +174,10 @@ export function Login() {
             transition={{ delay: 0.6 }}
           >
             <button className="py-2.5 rounded-xl border border-gray-200 text-sm text-gray-600 font-medium flex items-center justify-center gap-2 hover:bg-gray-50 transition-colors">
-              <img 
-                src="https://p1.hiclipart.com/preview/209/923/667/google-logo-background-g-suite-google-pay-google-doodle-text-circle-line-area-png-clipart.jpg" 
-                alt="Google" 
-                className="h-5 w-5 object-contain"
-              />
-              Google
+              <span>🇬</span> Google
             </button>
             <button className="py-2.5 rounded-xl border border-gray-200 text-sm text-gray-600 font-medium flex items-center justify-center gap-2 hover:bg-gray-50 transition-colors">
-              <img 
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGEpxxC5VV92Lu3fwTUz3y4YD2iwKW7TF0pg&s" 
-                alt="Facebook" 
-                className="h-5 w-5 object-contain"
-              />
-              Facebook
+              <span>📘</span> Facebook
             </button>
           </motion.div>
 
